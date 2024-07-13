@@ -88,13 +88,6 @@ body{
     align-items: flex-start;
 }
 
-.toy{
-    height: 250px;
-    margin-top: 20px;
-    margin-left: 15px;
-    background-color: #fff;
-}
-
 .boat{
     position: absolute;
     left: 1%;
@@ -117,8 +110,8 @@ body{
 
 .marshal{
     position: absolute; 
-    right: 70%;
-    bottom: -40px;
+    left: 1%;
+    bottom: 22px;
     text-decoration: none;
     color: black;
     font-size: small;
@@ -137,8 +130,8 @@ body{
 
 .fastrack{
     position: absolute; 
-    right: 52%;
-    bottom: -40px;
+    left: 1%;
+    bottom: 30px;
     text-decoration: none;
     color: black;
     font-size: small;
@@ -157,8 +150,8 @@ body{
 
 .camera{
     position: absolute; 
-    right: 33%;
-    bottom: -40px;
+    left: -95%;
+    bottom: 22px;
     text-decoration: none;
     color: black;
     font-size: small;
@@ -177,8 +170,8 @@ body{
 
 .trimmer{
     position: absolute; 
-    right: 17%;
-    bottom: -40px;
+    left: -70%;
+    bottom: 22px;
     text-decoration: none;
     color: black;
     font-size: small;
@@ -193,6 +186,29 @@ body{
     color: black;
     font-size: small;
     font-family: 'Roboto',sans-serif
+}
+
+.toy{
+    height: 250px;
+    margin-top: 20px;
+    margin-left: 15px;
+    background-color: #fff;
+    margin-left: 15px;
+    margin-right: 20px;
+}
+
+.toy p{
+    font-size: larger;
+    position: absolute;
+    left: 41px;
+    bottom: -163px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.pen{
+    position: absolute;
+    top: 129%;
+    left: 3%;
 }
 
 .slideshow-container {
