@@ -211,6 +211,12 @@ body{
     left: 3%;
 }
 
+.panda{
+    position: absolute;
+    top: 129%;
+    left: 22%;
+}
+
 .slideshow-container {
     padding-top: 20px;
     max-width: 1315px;
